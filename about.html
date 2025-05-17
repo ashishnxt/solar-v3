@@ -27,6 +27,11 @@
 
 		<!-- Main Stylesheet -->
 		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/connect.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+        <!-- chat -->
+        <link rel="stylesheet" href="./assets/css/chat.css">
 
 
 		
@@ -42,6 +47,7 @@
         <link rel="stylesheet" href="assets-2/css/vendor/magnific-popup.css">
         <!-- bootstrap css -->
         <link rel="stylesheet" href="assets-2/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/connect.css">
 
 	</head>
 
@@ -54,6 +60,7 @@
 	  </style>
 	
 	<body class="body-wrapper home-one" data-scroll-animation="true">
+		<div id="connectWrapper"></div>	
 		<!-- Overlay -->
 		<div class="overlay"></div>
 
@@ -330,9 +337,47 @@
 		</section>	
 		<!-- END SECTION TOP -->
 		 
+        <section class="srex-about-us-two srex-section" style="padding-bottom: 0;">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-8">
+                        <div class="srex-section__head wow ud-fade-in-up" data-wow-delay="200ms">
+                            <h5 class="srex-section__head__badge">
+                                <!-- Break the Myth -->
+                            </h5>
+                            <div class="d-flex align-content-center gap-5">
+                                <h2 class="srex-section__head__title">
+                                    Jahan Gyaan, Wahan Solar Chacha
+                                </h2>
+                              
+                            </div>
+                        </div>
+                    
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
 
+<!-- chat -->
+<div class="chat-container" id="chat">
+    <!-- Example Chat Messages: Edit below only -->
 
+    <div class="message left">
+      <img src="assets/images/character/chacha.png" alt="Sunny" />
+      <div class="bubble sunny">
+        Humne 1000+ gharo mein roshni pahunchayi, bina kisi jhanjhat ke.
+      </div>
+    </div>
 
+    <div class="message right">
+      <img src="assets/images/character/didi.png" alt="Ray" />
+      <div class="bubble ray">
+       Add trust badges – Govt. certified, 1000+ homes, 100+ commercial installs.
+
+      </div>
+    </div>
+    </div>
 
 
 		     <!-- About Us Section Start -->
@@ -501,14 +546,15 @@
                         </div>
                         <!-- tab area start about -->
                         <ul class="nav custom-nav-soalr-about nav-pills" id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Why Choose Us?</button>
-                            </li>
+                         
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Our Mission</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Our Vision</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Why Choose Us?</button>
                             </li>
                         </ul>
 
@@ -1193,6 +1239,10 @@
         </div>
     </div>
     <!-- rts about company wrapper ewn -->
+
+
+
+    
 </div>
 
 
@@ -1365,6 +1415,8 @@
 
 		<!-- Custom JS -->
 		<script src="./assets/js/custom.js"></script>
+		<script src="./assets/js/connect.js"></script>
+        <script src="./assets/js/chat2.js"></script>
 
 
 
@@ -1386,6 +1438,7 @@
 			<script src="assets-2/js/plugins/bootstrap.min.js"></script>
 			<script src="assets-2/js/vendor/magnific-popup.min.js"></script>
 			<script src="assets-2/js/main.js"></script>
+            <script src="assets/js/connect.js"></script>
 			<!-- header style two End -->
 	</body>
 </html>

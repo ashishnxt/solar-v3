@@ -40,7 +40,7 @@
   .stats { display: flex; gap: 1rem; }
   .stat-card {
     display: flex; align-items: center;
-    background: #add1f1; padding: 0.75rem 1rem;
+    background: #e4f3e2; padding: 0.75rem 1rem;
     border-radius: 1rem; box-shadow: 0 4px 16px rgba(0,0,0,0.05);
   }
   .stat-card i { font-size: 1.5rem; color: #10b981; margin-right: 0.75rem; }
@@ -48,14 +48,14 @@
   .stat-card p { margin: 0; font-size: 0.85rem; color: #4b5563; }
   
   /* Divider */
-  .divider { width: 4px; background: #2d59a0; }
+  .divider { width: 4px; background: #4aab3d; }
   
   /* Form Panel */
   .form-panel {
     flex: 1;
     padding: 1.5rem 2rem;
-    background: #f4faff;
-    color: #1e3a8a;
+    background: #e4f3e2;
+    color: #4aab3d;
   }
   .subtitle {
     display: inline-block;

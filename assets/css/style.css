@@ -2466,7 +2466,7 @@ input:focus {
 }
 @media (max-width: 767px) {
   .srex-features {
-    padding: 50px 0 430px 0;
+    padding: 50px 0 50px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3430,11 +3430,11 @@ input:focus {
 	17/ News Letter
 ------------------------------------*/
 .srex-news-letter {
-  margin-top: 0px;
+  margin-top: 50px;
 }
 @media (max-width: 767px) {
   .srex-news-letter {
-    margin-top: -400px;
+    margin-top: 50px;
   }
 }
 .srex-news-letter--three {

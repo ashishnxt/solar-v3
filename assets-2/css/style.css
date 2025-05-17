@@ -578,7 +578,7 @@
 }
 
 .site2-section .rts-section-gap {
-  padding: 120px 0;
+  padding: 100px 0 20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -588,7 +588,7 @@
 }
 @media only screen and (max-width: 767px) {
   .site2-section .rts-section-gap {
-    padding: 60px 0;
+    padding: 60px 0 0;
   }
 }
 .site2-section .rts-section-gapBottom {
@@ -5880,7 +5880,7 @@
     padding-right: 80px !important;
   }
   .site2-section .mt_sm--80 {
-    margin-top: 80px !important;
+    margin-top: 50px !important;
   }
   .site2-section .ml_sm--80 {
     margin-left: 80px !important;
