@@ -1,0 +1,105 @@
+
+h2 {
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 1.8rem;
+    margin: 0;
+
+  }
+
+  .chat-container {
+    max-width: 1200px;
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+    overflow-y: auto;
+  }
+
+  .message {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+  }
+
+  .message.left {
+    flex-direction: row;
+  }
+
+  .message.right {
+    flex-direction: row-reverse;
+  }
+
+  .message.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .message img {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+  }
+
+  .bubble {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 65%;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    /* border: 1px solid black; */
+  }
+
+  .bubble.sunny {
+    background: #ff7a45;
+  }
+
+  .bubble.ray {
+    background: #4aab3d;
+  }
+
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+      padding: 10px 5px;
+    }
+    .chat-container {
+      padding: 10px;
+      margin: 10px auto;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .message img {
+      width: 80px;
+      height: 80px;
+      margin: 0 5px;
+    }
+    .bubble {
+      max-width: 80%;
+      padding: 20px;
+      font-size: 0.95rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+    }
+    .message {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .message img {
+      width: 40px;
+      height: 40px;
+    }
+    .bubble {
+      max-width: 80%;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }

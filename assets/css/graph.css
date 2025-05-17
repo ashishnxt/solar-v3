@@ -1,0 +1,195 @@
+#solar-savings-widget {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    overflow-x: hidden;
+  }
+
+  #solar-savings-widget .container-ssw {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #solar-savings-widget h1 {
+    color: #0066cc;
+    margin: 20px 0;
+    font-size: 28px;
+    padding: 0 20px;
+  }
+
+  #solar-savings-widget .graph-container-ssw {
+    display: flex;
+    position: relative;
+    height: 50vh;
+    min-height: 500px;
+    margin: 0;
+    /* background-color: white; */
+   
+    width: 100%;
+  }
+
+  #solar-savings-widget .graph-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #solar-savings-widget .divider-ssw {
+    width: 2px;
+    background-color: #ddd;
+    height: 100%;
+  }
+
+  #solar-savings-widget .bar-container-ssw {
+    display: flex;
+    height: calc(100% - 40px);
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 40px;
+    width: 100%;
+  }
+
+  #solar-savings-widget .bar-group-ssw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    max-width: 80px;
+    position: relative;
+    padding: 0 5px;
+  }
+
+  #solar-savings-widget .bar-ssw {
+    width: 70%;
+    border-radius: 0;
+    transition: height 0.7s ease;
+  }
+
+  #solar-savings-widget .traditional-bar {
+    background: #ff7a45;
+  }
+
+  #solar-savings-widget .solar-bar {
+    background: #4aab3d;
+  }
+
+  #solar-savings-widget .bar-label {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #solar-savings-widget .section-title-ssw {
+    font-size: 22px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #solar-savings-widget .benefits-container-ssw {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  #solar-savings-widget .benefit-box-ssw {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  #solar-savings-widget .traditional-box {
+    border-top: 5px solid #ff3333;
+    background-color: #fff;
+  }
+
+  #solar-savings-widget .solar-box {
+    border-top: 5px solid #00a86b;
+    background-color: #fff;
+  }
+
+  #solar-savings-widget .benefit-title {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  #solar-savings-widget .benefit-list {
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  #solar-savings-widget .benefit-list li {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  #solar-savings-widget .cta-button-ssw {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 12px 30px;
+    background-color: #4aab3d;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  #solar-savings-widget .cta-button-ssw:hover {
+    background-color: #ff7a45;
+  }
+
+  #solar-savings-widget .years-label-ssw {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  #solar-savings-widget .total-savings-ssw {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #00a86b;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    #solar-savings-widget .graph-container-ssw {
+      flex-direction: column;
+      height: auto;
+      min-height: 800px;
+    }
+
+    #solar-savings-widget .divider-ssw {
+      width: 100%;
+      height: 2px;
+      margin: 20px 0;
+    }
+
+    #solar-savings-widget .bar-container-ssw {
+      height: 300px;
+      overflow-x: auto;
+      justify-content: flex-start;
+    }
+
+    #solar-savings-widget .bar-group-ssw {
+      min-width: 40px;
+    }
+
+    #solar-savings-widget .benefits-container-ssw {
+      flex-direction: column;
+    }
+
+    #solar-savings-widget .benefit-box-ssw {
+      margin: 10px 0;
+    }
+  }

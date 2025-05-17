@@ -1,0 +1,357 @@
+
+        
+       .dashboard-body {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 2px;
+            height: 60vh;
+            max-width: 1200px;
+            margin: 5vh auto;
+            background-color: #ffffff;
+            grid-template-areas:
+                "current-power production consumption site-power"
+                "current-power alerts mi-co2 site-power";
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            margin: 2px;
+        }
+        
+        .current-power {
+            grid-area: current-power;
+        }
+        
+        .production {
+            grid-area: production;
+        }
+        
+        .consumption {
+            grid-area: consumption;
+        }
+        
+        .site-power {
+            grid-area: site-power;
+        }
+        
+        .alerts {
+            grid-area: alerts;
+        }
+        
+        .mi-co2 {
+            grid-area: mi-co2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0;
+            background: none;
+        }
+        
+        .mi-co2 .card {
+            margin: 2px;
+        }
+        
+        .card-headers {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #888;
+            font-size: 14px;
+        }
+        
+        .expand-icon {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .info-icon {
+            margin-left: 5px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        
+        .card-title {
+            font-size: 35px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .source-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .source-icon {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        
+        .solar {
+            background-color: #ff7a45;
+        }
+        
+        .grid {
+            background-color: #333;
+        }
+        
+        .battery {
+            background-color: #ccc;
+        }
+        
+        .progress-bar {
+            height: 8px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            margin: 10px 0;
+            position: relative;
+        }
+        
+        .progress {
+            height: 100%;
+            border-radius: 4px;
+            background-color: #ff7a45;
+        }
+        
+        .chart-container {
+            flex-grow: 1;
+            display: flex;
+            align-items: flex-end;
+            margin-top: 15px;
+        }
+        
+        .bar {
+            width: 4px;
+            margin-right: 7px;
+            border-radius: 2px;
+        }
+        
+        .solar-bar {
+            background-color: #ff7a45;
+        }
+        
+        .grid-bar {
+            background-color: #333;
+        }
+        
+        .date-range {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #888;
+            margin-top: 5px;
+        }
+        
+        .site-power-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        
+        .site-power-item {
+            text-align: right;
+        }
+        
+        .site-power-value {
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        .site-power-label {
+            font-size: 12px;
+            color: #888;
+        }
+        
+        .gauge-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        
+        .gauge {
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+        
+        .gauge-value {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        .gauge-label {
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .alerts-container {
+            flex-grow: 1;
+        }
+        
+        .alert-count {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .alert-items {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .alert-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .alert-label {
+            width: 70px;
+            font-size: 14px;
+            color: #888;
+        }
+        
+        .alert-bar {
+            flex-grow: 1;
+            height: 8px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            position: relative;
+        }
+        
+        .alert-progress {
+            height: 100%;
+            border-radius: 4px;
+            background-color: #ff7a45;
+            width: 50%;
+        }
+        
+        .system-bar {
+            background: repeating-linear-gradient(
+                to right,
+                #f0f0f0,
+                #f0f0f0 4px,
+                #e0e0e0 4px,
+                #e0e0e0 8px
+            );
+        }
+        
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+            margin-top: 20px;
+        }
+        
+        .time-label {
+            font-size: 12px;
+            color: #888;
+        }
+        
+        .time-line {
+            flex-grow: 1;
+            height: 2px;
+            background-color: #f0f0f0;
+            margin: 0 10px;
+            position: relative;
+        }
+        
+        .time-marker {
+            width: 20px;
+            height: 2px;
+            background-color: #ff7a45;
+            position: absolute;
+        }
+        
+
+
+        @media (max-width: 1024px) {
+    .dashboard {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "current-power production"
+            "consumption site-power"
+            "alerts mi-co2";
+        height: auto;
+    }
+
+    .mi-co2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .card,
+    .mi-co2 .card {
+        margin: 10px 0;
+    }
+
+    .chart-container {
+        flex-wrap: wrap;
+    }
+
+    .bar {
+        width: 3px;
+        margin-right: 4px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .site-power-value {
+        font-size: 18px;
+    }
+
+    .alert-count,
+    .gauge-value {
+        font-size: 20px;
+    }
+
+    .gauge {
+        width: 80px;
+        height: 80px;
+    }
+
+    .gauge-label {
+        font-size: 10px;
+    }
+
+    .card-headers {
+        font-size: 12px;
+    }
+}
+
+

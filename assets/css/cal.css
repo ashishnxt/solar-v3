@@ -10,7 +10,7 @@
     width: 100%;
     margin: 0 auto;
     border-radius: 1.5rem;
-    /* box-shadow: inset 0 0 0 2px #3b82f6; */
+    /* box-shadow: inset 0 0 0 2px #4aab3d; */
     overflow: hidden;
   }
 
@@ -31,7 +31,7 @@
   .shape-circle {
     position: absolute; top: 10%; right: 5%;
     width: 80px; height: 80px;
-    background: #3b82f6; border-radius: 50%;
+    background: #4aab3d; border-radius: 50%;
     opacity: 0.15;
   }
   .info-panel h2 { font-size: 1.75rem; margin-bottom: 1rem; }
@@ -75,7 +75,7 @@
   .input-group i {
     position: absolute; top: 50%; left: 1rem;
     transform: translateY(-50%);
-    color: #3b82f6; font-size: 1.2rem;
+    color: #4aab3d; font-size: 1.2rem;
   }
   .input-group input,
   .input-group select {
@@ -91,7 +91,7 @@
   .input-group input:focus,
   .input-group select:focus {
     outline: none;
-    border-color: #3b82f6;
+    border-color: #4aab3d;
     transform: scale(1.02);
   }
   
@@ -103,7 +103,7 @@
   .btn-cal {
     width: 100%; padding: 0.75rem;
     border: none; border-radius: 999px;
-    background: #3b82f6; color: #fff;
+    background: #4aab3d; color: #fff;
     font-weight: 700; cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
   }

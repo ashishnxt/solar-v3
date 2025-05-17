@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solar Chat - Sunny & Ray</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff6f00;
+      padding: 15px 10px;
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    .chat-container {
+      max-width: 1000px;
+      width: 95%;
+      margin: 20px auto;
+      padding: 15px;
+      overflow-y: auto;
+    }
+
+    .message {
+      display: flex;
+      margin-bottom: 25px;
+      align-items: center;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease;
+    }
+
+    .message.left {
+      flex-direction: row;
+    }
+
+    .message.right {
+      flex-direction: row-reverse;
+    }
+
+    .message.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .message img {
+      width: 150px;
+      height: 150px;
+      margin: 0 10px;
+    }
+
+    .bubble {
+      padding: 15px;
+      border-radius: 20px;
+      max-width: 65%;
+      font-size: 1rem;
+    }
+
+    .bubble.sunny {
+      background: #fff176;
+    }
+
+    .bubble.ray {
+      background: #aed581;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      h2 {
+        font-size: 1.5rem;
+        padding: 10px 5px;
+      }
+      .chat-container {
+        padding: 10px;
+        margin: 10px auto;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .message img {
+        width: 80px;
+        height: 80px;
+        margin: 0 5px;
+      }
+      .bubble {
+        max-width: 60%;
+        padding: 12px;
+        font-size: 0.95rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+      .message {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .message img {
+        width: 40px;
+        height: 40px;
+      }
+      .bubble {
+        max-width: 80%;
+        padding: 10px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="chat-container" id="chat">
+    <!-- Example Chat Messages: Edit below only -->
+
+    <div class="message left">
+      <img src="assets/images/character/chacha.png" alt="Sunny" />
+      <div class="bubble sunny">
+        <strong>Sunny:</strong> Hey Ray! Did you know solar energy can cut your electricity bill by up to 70%?
+      </div>
+    </div>
+
+    <div class="message right">
+      <img src="assets/images/character/didi.png" alt="Ray" />
+      <div class="bubble ray">
+        <strong>Ray:</strong> Really? That sounds amazing! How does it work exactly?
+      </div>
+    </div>
+
+    <div class="message left">
+      <img src="assets/images/character/chacha.png" alt="Sunny" />
+      <div class="bubble sunny">
+        <strong>Sunny:</strong> Solar panels capture sunlight and turn it into electricity. It's clean and renewable!
+      </div>
+    </div>
+
+    <div class="message right">
+      <img src="assets/images/character/didi.png" alt="Ray" />
+      <div class="bubble ray">
+        <strong>Ray:</strong> That's super cool. Does it help the environment too?
+      </div>
+    </div>
+
+    <div class="message left">
+      <img src="assets/images/character/chacha.png" alt="Sunny" />
+      <div class="bubble sunny">
+        <strong>Sunny:</strong> Absolutely! Solar power reduces carbon emissions and fights climate change. 🌍
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Animate messages one by one
+    window.addEventListener('load', () => {
+      const messages = document.querySelectorAll('.message');
+      messages.forEach((msg, index) => {
+        setTimeout(() => {
+          msg.classList.add('show');
+        }, index * 1200); // 1.2 seconds delay between messages
+      });
+    });
+  </script>
+
+</body>
+</html>

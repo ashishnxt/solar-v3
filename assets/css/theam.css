@@ -1,15 +1,17 @@
 
-  
+  /* Container for all conversation */
   .conversation-container {
-    max-width: 1000px;
+    max-width: 960px;
     margin: auto;
-    padding: 50px 20px;
+    padding: 60px 20px;
   }
   
+  /* Character block styles */
   .character {
     display: flex;
     align-items: flex-start;
-    margin: 60px 0;
+    justify-content: flex-start;
+    margin: 70px 0;
     opacity: 0;
     transform: translateY(50px);
     transition: all 0.8s ease;
@@ -17,35 +19,38 @@
   
   .character.left {
     flex-direction: row;
-    justify-content: flex-start;
   }
   
   .character.right {
     flex-direction: row-reverse;
-    justify-content: flex-end;
     text-align: right;
   }
   
+  /* Character images */
   .character img {
-    width: 70px;
+    width: 80px;
     height: auto;
-    margin: 0 15px;
+    margin: 0 20px;
+    flex-shrink: 0;
   }
   
+  /* Speech bubble styles */
   .speech {
     background: #fff;
-    padding: 12px 18px;
+    padding: 15px 20px;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 70%;
+    max-width: 60%;
     font-size: 1rem;
     line-height: 1.5;
   }
   
+  /* End CTA message */
   .end-message {
     text-align: center;
     margin-top: 100px;
     font-size: 1.2em;
+    padding: 0 20px;
   }
   
   .end-message a {
@@ -54,20 +59,39 @@
     font-weight: bold;
   }
   
-  /* RESPONSIVE — keep left and right positions */
+  /* 📱 Mobile Responsive Design */
   @media (max-width: 768px) {
     .character {
-      margin: 40px 0;
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
+      margin: 50px 0;
     }
   
     .character img {
+      margin: 0 0 15px 0;
       width: 60px;
-      margin: 0 10px;
     }
   
     .speech {
-      max-width: 75%;
+      max-width: 90%;
       font-size: 0.95rem;
+    }
+  
+    .end-message {
+      font-size: 1rem;
+    }
+  }
+  
+  /* 📱 Extra small screen tweak */
+  @media (max-width: 480px) {
+    .speech {
+      padding: 12px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .character img {
+      width: 50px;
     }
   }
   
