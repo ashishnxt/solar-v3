@@ -660,7 +660,7 @@ input:focus {
 }
 .srex-info-box__item {
   border-radius: 20px;
-  background: #f6f6f6;
+  background: #f8f7f0;
   padding: 40px;
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
@@ -1150,7 +1150,7 @@ input:focus {
   line-height: normal;
 }
 .ud-main-menu ul > li > ul li a:hover {
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
 }
 
 .srex-header--home-two .ud-main-menu__sub-menu li a {
@@ -1593,7 +1593,7 @@ input:focus {
 	Hero One
 ------------------------------------*/
 .srex-hero-one {
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   padding: 50px 0 30px 0;
   margin-bottom: 40px;
 }
@@ -1859,7 +1859,7 @@ input:focus {
 .srex-hero-three {
   background-image: url(../images/home-three/hero-bg.png);
   background-position: bottom;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   height: 815px;
   margin-top: -85px;
 }
@@ -1916,7 +1916,7 @@ input:focus {
 }
 
 .srex-service-two {
-  background: #f6f6f6;
+  background: #f8f7f0;
   padding-top: 100px;
   position: relative;
 }
@@ -2000,7 +2000,7 @@ input:focus {
 
 .srex-service-we-provide {
   padding-top: 80px;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   max-height: 750px;
   margin-bottom: 150px;
 }
@@ -2665,7 +2665,7 @@ input:focus {
   background-color: #FF7029;
 }
 .srex-contact__left {
-  background: #f6f6f6;
+  background: #f8f7f0;
   padding: 60px;
   border-radius: 20px;
 }
@@ -2778,7 +2778,7 @@ input:focus {
 .srex-portfolio .controls ul li {
   color: #24231D;
   font-style: normal;
-  background: #f6f6f6;
+  background: #f8f7f0;
   border-radius: 999px;
   font-weight: 700;
   padding: 15px 60px;
@@ -2927,7 +2927,7 @@ input:focus {
 .srex-portfolio-two .controls ul li {
   color: #24231D;
   font-style: normal;
-  background: #f6f6f6;
+  background: #f8f7f0;
   border-radius: 10px;
   font-weight: 700;
   padding: 20px 30px;
@@ -2974,7 +2974,7 @@ input:focus {
   border-radius: 10px;
   padding: 20px;
   margin: 20PX;
-  background: #f6f6f6;
+  background: #f8f7f0;
   position: absolute;
   bottom: 7px;
 }
@@ -2998,7 +2998,7 @@ input:focus {
 }
 /*START SINGLE PROJECT DETAILS*/
 .single_ser_info {
-	background: #f6f6f6;
+	background: #f8f7f0;
 	padding: 30px;
 	border-radius: 10px;
 	margin-bottom:30px;
@@ -3020,7 +3020,7 @@ input:focus {
 }
 .single_ser_info a:hover{background: #4aab3d ;color:#fff;}
 .single_brochure {
-	background: #f6f6f6;
+	background: #f8f7f0;
 	padding: 30px;
 	border-radius: 10px;
 }
@@ -3086,7 +3086,7 @@ input:focus {
 }
 
 .spdi h3 {
-	background: #f6f6f6;
+	background: #f8f7f0;
 	text-align: center;
 	padding: 30px;
 	margin: -1px;
@@ -3219,7 +3219,7 @@ input:focus {
   }
 }
 .srex-question-two {
-  background: #f6f6f6;
+  background: #f8f7f0;
   padding: 100px 0;
 }
 .sqp{background:#fff;}
@@ -3376,7 +3376,7 @@ input:focus {
 }
 .srex-faq-three__left {
   border-radius: 249px 20px 20px 20px;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   text-align: center;
   position: relative;
   margin-right: 40px;
@@ -3421,7 +3421,7 @@ input:focus {
 }
 .srex-faq-three .srex-accordion .accordion-item .accordion-header__left__badge {
   color: #4aab3d  !important;
-  background-color: #f6f6f6 !important;
+  background-color: #f8f7f0 !important;
 }
 .srex-faq-three .srex-accordion .accordion-item h3, .srex-faq-three .srex-accordion .accordion-item .accordion-header__left__badge {
   color: #24231D;
@@ -3485,7 +3485,7 @@ input:focus {
   font-weight: 800;
 }
 .srex-news-letter__box {
-  background: #f6f6f6;
+  background: #f8f7f0;
   padding: 60px;
   border-radius: 20px;
 }
@@ -3681,7 +3681,7 @@ input:focus {
 ------------------------------------*/
 .srex-testimonial-one {
   position: relative;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   margin-top: 100px;
   background-image: url(../images/testimonial-bg.png);
   background-repeat: no-repeat;
@@ -3833,7 +3833,7 @@ input:focus {
 }
 
 .srex-testimonial-two {
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   background-image: url(../images/home-two/testimonial-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -4064,7 +4064,7 @@ input:focus {
   -ms-flex-pack: center;
       justify-content: center;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
-  border: 1px solid #f6f6f6;
+  border: 1px solid #f8f7f0;
   margin: 40px 0;
   padding: 0 50px;
 }
@@ -4299,7 +4299,7 @@ input:focus {
 }
 .srex-blog-one__post:hover .srex-btn--outline {
   border-color: #4aab3d ;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   color: #4aab3d ;
 }
 .srex-blog-one__post__img {
@@ -4335,7 +4335,7 @@ input:focus {
 }
 .srex-blog-one__post .srex-btn--outline:hover {
   border-color: #4aab3d ;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   color: #4aab3d ;
 }
 
@@ -4361,7 +4361,7 @@ input:focus {
 }
 .srex-blog-two__post {
   position: relative;
-  background: #f6f6f6;
+  background: #f8f7f0;
   padding: 20px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
@@ -4469,7 +4469,7 @@ input:focus {
 }
 .srex-blog-three__post:hover .srex-btn--outline {
   border-color: #4aab3d ;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   color: #4aab3d ;
 }
 .srex-blog-three__post__img {
@@ -4505,7 +4505,7 @@ input:focus {
   padding: 0 30px;
 }
 .srex-blog-three__post__meta {
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   padding: 10px 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -4515,7 +4515,7 @@ input:focus {
 }
 .srex-blog-three__post .srex-btn--outline:hover {
   border-color: #4aab3d ;
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   color: #4aab3d ;
 }
 
@@ -4729,7 +4729,7 @@ input:focus {
 }
 
 .srex-footer-one {
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   padding-top: 50px;
   background-image: url(../images/footer-one-bg.png);
   background-repeat: no-repeat;
@@ -4948,7 +4948,7 @@ input:focus {
   }
 }
 .srex-support--three .srex-support__item {
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   border: 0px;
 }
 .srex-support__item {
@@ -4971,7 +4971,7 @@ input:focus {
 	23/ Pricing
 ------------------------------------*/
 .srex-pricing {
-  background-color: #f6f6f6;
+  background-color: #f8f7f0;
   padding-top: 230px;
   margin-top: -100px;
   padding-bottom: 400px;
@@ -5051,7 +5051,7 @@ input:focus {
 	position: absolute;
 	width: 100%;
 	top: 0;
-	background: #f6f6f6;
+	background: #f8f7f0;
 }
 .section-top-title {
 	position: relative;
@@ -5183,13 +5183,13 @@ padding: 40px;
 
 /*START PAGINATION*/
 ul.blog_pagination li a {
-	border: 1px solid #f6f6f6;
+	border: 1px solid #f8f7f0;
 	border-radius: 3px;
 	/* color: #1d293e; */
 	display: block;
 	font-size: 18px;
 	font-weight: 600;
-	background: #f6f6f6;
+	background: #f8f7f0;
 	height: 50px;
 	line-height: 50px;
 	margin: 5px;
@@ -5371,7 +5371,7 @@ font-size: 18px;
 }
 .single_comment {
     margin-bottom: 30px;
-    background: #f6f6f6;
+    background: #f8f7f0;
     padding: 40px;
 	border-radius: 10px;
 	box-shadow: 0 10px 40px -10px rgba(0,64,128,.08);

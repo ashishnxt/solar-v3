@@ -15179,13 +15179,13 @@ nav ul li a {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #f6f6f6;
+  color: #f8f7f0;
 }
 .cta-solari-wrapper .right-area .cta-form .single-input input::placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #f6f6f6;
+  color: #f8f7f0;
 }
 
 .ml-dec-5 {
@@ -15242,7 +15242,7 @@ nav ul li a {
 }
 
 .bg-h-light {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -16022,7 +16022,7 @@ nav ul li a {
 }
 
 .bg-lighten {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 
 .about-lefta-area-solari-2 {
@@ -16191,7 +16191,7 @@ nav ul li a {
 }
 
 .bg-about-h4 {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 
 .about-inner-four-h4 .check-area-wrapper .single-check {
@@ -16222,7 +16222,7 @@ nav ul li a {
 }
 
 .bg-why-choose-us {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 
 .single-reason-style-4 {
@@ -16997,7 +16997,7 @@ nav ul li a {
 }
 
 .why-choose__bg {
-  background: #f6f6f6;
+  background: #f8f7f0;
   position: relative;
   z-index: 0;
 }
@@ -17011,14 +17011,14 @@ nav ul li a {
 }
 
 .rts-installation {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 .rts-installation .title-wrapper-6-basis h2 {
   font-weight: 600;
 }
 
 .fun-fact-bg {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 
 .single__installation {
@@ -17376,7 +17376,7 @@ nav ul li a {
 }
 
 .section__bg {
-  background: #F6F6F6;
+  background: #f8f7f0;
 }
 
 .panel-type-8 .section__title h2 {
@@ -17594,7 +17594,7 @@ p {
 
 .service-one-tab-conetnt .disc {
   padding: 27px 35px;
-  background: #F6F6F6;
+  background: #f8f7f0;
 }
 @media only screen and (max-width: 479px) {
   .service-one-tab-conetnt .disc {
@@ -18053,7 +18053,7 @@ p {
   transition: 0.3s;
 }
 .air-condition-single-service-01 .icon-area {
-  background: #F6F6F6;
+  background: #f8f7f0;
   height: 110px;
   min-width: 110px;
   max-width: 110px;
@@ -19920,7 +19920,7 @@ p {
 }
 
 .bg-lighten {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 
 .why-choose-us-section .mission-accordion-area {
@@ -20631,7 +20631,7 @@ p {
 }
 
 .rts-solari-blog-area-start {
-  background: #F6F6F6;
+  background: #f8f7f0;
   position: relative;
 }
 .rts-solari-blog-area-start .stok-bg {
@@ -21029,7 +21029,7 @@ p {
 }
 .blog-single-post-listing.details {
   border-radius: 7px;
-  background: #F6F6F6;
+  background: #f8f7f0;
 }
 .blog-single-post-listing.details .thumbnail {
   border-radius: 7px 7px 0 0;
@@ -21194,7 +21194,7 @@ p {
 .blog-single-post-listing.details .details-share button::after {
   position: absolute;
   content: "";
-  background: #F6F6F6;
+  background: #f8f7f0;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -21397,7 +21397,7 @@ p {
 }
 
 .rts-single-wized {
-  background: #F6F6F6;
+  background: #f8f7f0;
   border-radius: 7px;
   padding: 40px;
   margin-bottom: 40px;
@@ -22388,7 +22388,7 @@ p {
 }
 
 .personal-info-team {
-  background: #F6F6F6;
+  background: #f8f7f0;
   height: 100%;
   padding: 65px 80px 45px 80px;
 }
@@ -22801,7 +22801,7 @@ p {
 }
 
 .team-8 .solar-energy-team {
-  background: #f6f6f6;
+  background: #f8f7f0;
   border-radius: 0;
 }
 .team-8 .solar-energy-team .thumbnail {
@@ -22814,7 +22814,7 @@ p {
   bottom: -16px;
   right: 0;
   height: 40px;
-  background: #F6F6F6;
+  background: #f8f7f0;
   z-index: 1;
   transform: skewY(6deg);
 }
@@ -23256,7 +23256,7 @@ p {
 }
 
 .faq-area-start-one .accordion .accordion-item {
-  background: #F6F6F6;
+  background: #f8f7f0;
   padding: 35px 40px;
   margin-bottom: 20px;
   box-shadow: none;
@@ -23578,7 +23578,7 @@ p {
   right: -30px;
   width: 450px;
   height: 350px;
-  background: #F6F6F6;
+  background: #f8f7f0;
   z-index: -1;
 }
 .faq-8 .faq-solari-image-area img {
@@ -23592,7 +23592,7 @@ p {
   font-family: var(--font-secondary);
 }
 .faq-9 .accordion-solar-faq .accordion-item {
-  background: #f6f6f6;
+  background: #f8f7f0;
 }
 .faq-9 .accordion-solar-faq .accordion-button {
   font-weight: 600;
@@ -24117,7 +24117,7 @@ li.ui-timepicker-selected .ui-timepicker-duration, .ui-timepicker-list li:hover 
 }
 
 .bg-appoinment {
-  background: #F6F6F6;
+  background: #f8f7f0;
 }
 
 form.appoinment-form .input-half-wrapper .single-input input {
@@ -24343,7 +24343,7 @@ form.appoinment-form .input-half-wrapper .single-input input {
   display: block;
 }
 .appoinment-area-six-wrapper form .single-input-area input {
-  background: #F6F6F6;
+  background: #f8f7f0;
   height: 50px;
   border: 1px solid transparent;
 }
@@ -24352,7 +24352,7 @@ form.appoinment-form .input-half-wrapper .single-input input {
 }
 .appoinment-area-six-wrapper form .single-input-area textarea {
   height: 100px;
-  background: #F6F6F6;
+  background: #f8f7f0;
   border: 1px solid transparent;
   padding: 15px;
 }
@@ -25147,7 +25147,7 @@ form.appoinment-form .input-half-wrapper .single-input input {
 .ms-main .single-product .ms-single-product .tab-area .tab-content .tab-pane .woocommerce-Reviews .full-details-inner .reveiw-form .contact-form .input-box textarea {
   width: 100%;
   padding: 0.5em 1em 0.5em 1em;
-  background: #F6F6F6 !important;
+  background: #f8f7f0 !important;
   border: 1px solid transparent;
   transition: all 0.4s;
   background: unset;
@@ -25174,7 +25174,7 @@ form.appoinment-form .input-half-wrapper .single-input input {
 .ms-main .single-product .ms-single-product .tab-area .tab-content .tab-pane .woocommerce-Reviews .full-details-inner .reveiw-form .contact-form .input-box input {
   width: 100%;
   padding: 0.5em 1em 0.5em 1em;
-  background: #F6F6F6 !important;
+  background: #f8f7f0 !important;
   height: 55px;
   margin-bottom: 25px;
   border: 1px solid transparent;

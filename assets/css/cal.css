@@ -228,7 +228,7 @@
 .calculator-wrapper {
     flex: 1;
     padding: 2rem 1rem;
-    background: #f0f0f0; /* light grey */
+    background: #f8f7f0; /* light grey */
     margin: 2%;
     border-radius: 20px;
   }
