@@ -578,7 +578,7 @@
 }
 
 .site2-section .rts-section-gap {
-  padding: 100px 0 20px;
+  padding: 100px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -593,7 +593,7 @@
 }
 .site2-section .rts-section-gapBottom {
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -19834,6 +19834,7 @@ xclip
   position: relative;
   z-index: 1;
   overflow: hidden;
+  border-radius: 5%;
 }
 
 .site2-section .project-one-wrapper::after {
@@ -24176,7 +24177,7 @@ xclip
   display: flex;
   align-items: flex-start;
   gap: 30px;
-  padding: 40px;
+  padding: 10px;
   background: #1F1F1F;
   border-radius: 15px;
 }

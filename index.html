@@ -69,6 +69,23 @@
 }
 
   }
+
+  .center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#typing-text {
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #4aab3d;
+  overflow: hidden;
+  border-right: 2px solid #4aab3d; /* blinking cursor effect */
+  width: fit-content;
+}
   
 
 	</style>
@@ -331,6 +348,10 @@
 			  <img src="https://randomuser.me/api/portraits/men/8.jpg" alt="User 3" />
 			</div>
 			<p class="subheading"><span class="highlight">23K User</span> Our Customers Love Solar</p>
+			<div class="center-container">
+				<h3 id="typing-text"></h3>
+			  </div>
+			  
 			<h1 class="heading">
 			  Go Solar, Save More:<br/>
 			  <span class="faded">Clean and Renewable</span> Energy<br/>
@@ -536,7 +557,7 @@
 		
 	
 
-	<div class="chat-container" id="chat">
+	<div class="chat-container" id="chat" style="margin: 0px auto;">
 		<!-- Example Chat Messages: Edit below only -->
 	    <div class="message right">
 		  <img src="assets/images/character/didi.png" alt="Ray" />
@@ -554,7 +575,32 @@
 	
     </div>
 
-
+	<section class="srex-service-three" style="        padding-top: 0px">
+		<div class="container">
+			<div class="row justify-content-center">
+			<div class="col-lg-10 col-12">
+				
+						<div class="srex-section__head">
+						
+							<h2 class="srex-section__head__title wow fadeInLeft" data-wow-duration="1.6s" >
+								Bijli ka bill bachao, Solar lagwao and sukoon leke aao!
+							</h2>
+						
+							<div style="text-align: center; margin-top: 20px;">
+								<a href="./contact.html" class="srex-btn srex-btn--primary">
+								  Contact Us <i class="fa-solid fa-phone"></i>
+								</a>
+							  </div>
+							  
+						</div>
+					</div>
+				
+				
+				
+				
+			</div>
+		</div>
+	</section>
 
 
 		<!-- Services Section Start -->
@@ -590,7 +636,7 @@
 									Solar refers to anything related to the sun. In the context of energy and technology, solar usually means using the sun's light and heat to generate electricity or power systems. It’s renewable, safe, and cost-effective in the long run. With solar, you're not just saving money, you're also saving the Earth
 								</p>
 								<a href="./service.html" class="srex-btn srex-btn--primary">
-									View More <i class="fa-solid fa-plus"></i>
+									Read More <i class="fa-solid fa-plus"></i>
 								</a>
 							</div>
 						</div>
@@ -807,7 +853,7 @@
 
 	<!-- About US Bottom End-->
 <div class="site2-section">
-	<div class="rts-installation flex-col rts-section-gap" style="background-color:#ffffff;">
+	<div class="rts-installation flex-col rts-section-gap" style="background-color:#ffffff; padding-bottom: 20px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -905,9 +951,9 @@
 	  
 		<!-- Mini Icons Issues -->
 		<ul style="list-style: none; padding-left: 0; padding-top: 5%;">
-		  <li>⚡ No Earthing = <strong>Fire Risk</strong></li>
-		  <li🌥️>🧱 Wrong Panel = <strong>No Output</strong></li>
-		  <li>📱 No App = <strong>No Monitoring</strong></li>
+		  <li><i class="fa-solid fa-circle" style="font-size: 8px;"></i> No Earthing = <strong>Fire Risk</strong></li>
+		  <li><i class="fa-solid fa-circle" style="font-size: 8px;"></i> Wrong Panel = <strong>No Output</strong></li>
+		  <li><i class="fa-solid fa-circle" style="font-size: 8px;"></i> No App = <strong>No Monitoring</strong></li>
 		</ul>
       </div>
     </div>
@@ -921,10 +967,10 @@
 		<!-- With Divy Solar -->
 		With Divy Solar:
 		<ul style="list-style: none; padding-left: 0;  padding-top: 5%;">
-		  <li>🏅 Govt. Certified</li>
-		  <li>🛡️ 25-Year Warranty</li>
-		  <li>💳 EMI Options</li>
-		  <li>📞 On-Call Support</li>
+		  <li><i class="fa-solid fa-circle" style="font-size: 8px;"></i>  Govt. Certified</li>
+		  <li><i class="fa-solid fa-circle" style="font-size: 8px;"></i>  25-Year Warranty</li>
+		  <li><i class="fa-solid fa-circle" style="font-size: 8px;"></i>  EMI Options</li>
+		  <li><i class="fa-solid fa-circle" style="font-size: 8px;"></i>  On-Call Support</li>
 		</ul>
       </div>
     </div>
@@ -1102,7 +1148,7 @@
 								<h3 class="srex-info-box__item__text">
 									Installation & Commissioning (INC)
 								</h3>
-								<p>Divy Power handles the complete installation and commissioning of solar systems, generators, and other power equipment.</p>
+								<!-- <p>Divy Power handles the complete installation and commissioning of solar systems, generators, and other power equipment.</p> -->
 								<div class="srex-info-box__more">
 									<a href="./services/services-details1.html"
 										>Read More
@@ -1130,7 +1176,7 @@
 								<h3 class="srex-info-box__item__text">
 									Engineering, Procurement, and Construction (EPC)
 								</h3>
-								<p>The company offers ongoing maintenance services to ensure optimal performance of installed systems, including solar panels and generators.</p>
+								<!-- <p>The company offers ongoing maintenance services to ensure optimal performance of installed systems, including solar panels and generators.</p> -->
 								<div class="srex-info-box__more">
 									<a href="./services/services-details2.html"
 										>Read More
@@ -1158,7 +1204,7 @@
 								<h3 class="srex-info-box__item__text">
 									Operations & Maintenance (O&M)
 								</h3>
-								<p>The company offers ongoing maintenance services to ensure optimal performance of installed systems, including solar panels and generators.</p>
+								<!-- <p>The company offers ongoing maintenance services to ensure optimal performance of installed systems, including solar panels and generators.</p> -->
 								<div class="srex-info-box__more">
 									<a href="./services/services-details3.html"
 										>Read More
@@ -1185,7 +1231,7 @@
 								  <h3 class="srex-info-box__item__text">
 									Annual Maintenance Contracts (AMC)
 								  </h3>
-								  <p>Divy Power provides AMC services for diesel generators, solar systems, and other equipment to ensure long-term reliability</p>
+								  <!-- <p>Divy Power provides AMC services for diesel generators, solar systems, and other equipment to ensure long-term reliability</p> -->
 								  <div class="srex-info-box__more">
 									<a href="./services/services-details4.html">Read More
 									  <i class="fa-solid fa-arrow-right"></i>
@@ -1206,7 +1252,7 @@
 									</div>
 									<h2 class="srex-info-box__item__number">05</h2>
 								  </div>
-								  <h3 class="srex-info-box__item__text">Health Check ups</h3>
+								  <h3 class="srex-info-box__item__text">Health <br>Check <br>Ups</h3>
 								  <div class="srex-info-box__more">
 									<a href="./services/services-details5.html">Read More
 									  <i class="fa-solid fa-arrow-right"></i>
@@ -1226,144 +1272,110 @@
 		<!-- Service End -->
 
 
-
-	
-		<section class="srex-features srex-section">
-			<div class="container">
-				<div class="row justify-content-between">
-					<div class="col-lg-6 col-12">
-						<div class="srex-features__left text-left">
-							<div class="srex-section__head">
-								<h5 class="srex-section__head__badge wow ud-fade-in-up" data-wow-delay="200ms">
-									<img
-										src="./assets/images/badge-icon.svg"
-										alt="Badge Icon"
-									>
-									Our Features
-								</h5>
-								<h2 class="srex-section__head__title wow ud-fade-in-up" data-wow-delay="250ms" style="    text-align: left">
-									Harness the power of the sun with solar
-									energy!
-								</h2>
-								<p class="mb-5  wow ud-fade-in-up" data-wow-delay="200ms" style="color: black;">
-									Nullam vel nibh facilisis lectus fermentum
-									ultrices quis non risus. Lore ipsum dolor
-									sit amet, consectetur adipiscing elit. In
-									hac habit asse pla dictumst. Duis porta,
-									quam ut finibus ultrices, lorem lacus
-								</p>
-								<a href="./about-us.html" class="srex-btn srex-btn--outline wow ud-fade-in-up" data-wow-delay="200ms">
-									Read More <i class="fa-solid fa-plus"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-12">
-						<div class="srex-info-box srex-info-box--feature-box">
-							<div class="row">
-								<div class="col-md-6 col-12">
-									<div class="srex-info-box__item wow ud-fade-in-up" data-wow-duration="1s">
-										<div
-											class="d-flex justify-content-between align-items-center"
-										>
-											<div
-												class="srex-info-box__item__img"
-											>
-												<img
-													src="assets/images/home-one/features/features-1.svg"
-													class="srex-info-box__item__logo"
-													alt="GreenSun Support"
-												>
-											</div>
-										</div>
-										<h3 class="srex-info-box__item__text">
-											Solar Solutions
-										</h3>
-										<!-- <p class="mb-3">
-											Lorem ipsum dolor sit amet cut co
-											sect. Proin viverra
-										</p> -->
-										<div class="srex-info-box__more">
-											<a href="./projects-details/projects-details1.html"
-												>Read More
-												<i
-													class="fa-solid fa-arrow-right"
-												></i>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 col-12">
-									<div class="srex-info-box__item wow ud-fade-in-up" data-wow-duration="1.3s">
-										<div
-											class="d-flex justify-content-between align-items-center"
-										>
-											<div
-												class="srex-info-box__item__img"
-											>
-												<img
-												src="assets/images/home-one/features/features-2.svg"
-													class="srex-info-box__item__logo"
-													alt="BrightSun Support"
-												>
-											</div>
-										</div>
-										<h3 class="srex-info-box__item__text">
-											Safety Solution
-										</h3>
-										<!-- <p class="mb-3">
-											Lorem ipsum dolor sit amet cut co
-											sect. Proin viverra
-										</p> -->
-										<div class="srex-info-box__more">
-											<a href="./projects-details/projects-details2.html"
-												>Read More
-												<i
-													class="fa-solid fa-arrow-right"
-												></i
-											></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 offset-md-6 col-12">
-									<div class="srex-info-box__item wow ud-fade-in-up" data-wow-duration="1.6s">
-										<div
-											class="d-flex justify-content-between align-items-r"
-										>
-											<div
-												class="srex-info-box__item__img"
-											>
-												<img
-												src="assets/images/home-one/features/features-3.svg"
-													class="srex-info-box__item__logo"
-													alt="SolarPro Solutions"
-												>
-											</div>
-										</div>
-										<h3 class="srex-info-box__item__text">
-											Genset Solutions
-										</h3>
-										<!-- -->
-										<div class="srex-info-box__more">
-											<a href="./projects-details/projects-details3.html"
-												>Read More
-												<i
-													class="fa-solid fa-arrow-right"
-												></i
-											></a>
-										</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 		<!-- Features End -->
-
-
+		  <section class="srex-features srex-section">
+			<div class="container">
+			  <div class="row justify-content-between" style="min-height: 400px;">
+				<div class="col-lg-6 col-12">
+				  <div class="srex-features__left text-left">
+					<div class="srex-section__head">
+					  <h5 class="srex-section__head__badge wow ud-fade-in-up" data-wow-delay="200ms">
+						<img src="./assets/images/badge-icon.svg" alt="Badge Icon" />
+						Our Product
+					  </h5>
+					  <h2
+						class="srex-section__head__title wow ud-fade-in-up"
+						data-wow-delay="250ms"
+						style="text-align: left"
+					  >
+						Harness the power of the sun with solar energy!
+					  </h2>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-6 col-12 d-flex flex-column justify-content-end">
+				
+				</div>
+				<div class="srex-info-box srex-info-box--feature-box">
+					<div class="row">
+					  <div class="col-md-4 col-12">
+						<div class="srex-info-box__item wow ud-fade-in-up" data-wow-duration="1s">
+						  <div class="d-flex justify-content-between align-items-center">
+							<div class="srex-info-box__item__img">
+							  <img
+								src="assets/images/home-one/features/features-1.svg"
+								class="srex-info-box__item__logo"
+								alt="GreenSun Support"
+							  />
+							</div>
+						  </div>
+						  <h3 class="srex-info-box__item__text">Solar Solutions</h3>
+						  <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
+							<li><i class="fa-solid fa-check-circle" style="color: #28a745; margin-right: 8px;"></i>Solar Pane</li>
+							<li><i class="fa-solid fa-check-circle" style="color: #28a745; margin-right: 8px;"></i>Solar Pump</li>
+							<li><i class="fa-solid fa-check-circle" style="color: #28a745; margin-right: 8px;"></i>Micro Inverter</li>
+						  </ul>
+						  <div class="srex-info-box__more">
+							<a href="./projects-details/projects-details1.html"
+							  >Read More <i class="fa-solid fa-arrow-right"></i
+							></a>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-md-4 col-12">
+						<div class="srex-info-box__item wow ud-fade-in-up" data-wow-duration="1.3s">
+						  <div class="d-flex justify-content-between align-items-center">
+							<div class="srex-info-box__item__img">
+							  <img
+								src="assets/images/home-one/features/features-2.svg"
+								class="srex-info-box__item__logo"
+								alt="BrightSun Support"
+							  />
+							</div>
+						  </div>
+						  <h3 class="srex-info-box__item__text">Safety Solution</h3>
+						  <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
+							<li><i class="fa-solid fa-check-circle" style="color: #28a745; margin-right: 8px;"></i>Earthing</li>
+							<li><i class="fa-solid fa-check-circle" style="color: #28a745; margin-right: 8px;"></i>LA</li>
+						
+						  </ul>
+						  <div class="srex-info-box__more">
+							<a href="./projects-details/projects-details2.html"
+							  >Read More <i class="fa-solid fa-arrow-right"></i
+							></a>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-md-4 col-12">
+						<div class="srex-info-box__item wow ud-fade-in-up" data-wow-duration="1.6s">
+						  <div class="d-flex justify-content-between align-items-center">
+							<div class="srex-info-box__item__img">
+							  <img
+								src="assets/images/home-one/features/features-3.svg"
+								class="srex-info-box__item__logo"
+								alt="SolarPro Solutions"
+							  />
+							</div>
+						  </div>
+						  <h3 class="srex-info-box__item__text">Genset Solutions</h3>
+						  <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
+							<li><i class="fa-solid fa-check-circle" style="color: #28a745; margin-right: 8px;"></i>Gas Genset</li>
+							<li><i class="fa-solid fa-check-circle" style="color: #28a745; margin-right: 8px;"></i>Diesel/Petrol Genset</li>
+						  </ul>
+						  <div class="srex-info-box__more">
+							<a href="./projects-details/projects-details3.html"
+							  >Read More <i class="fa-solid fa-arrow-right"></i
+							></a>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			</div>
+		  </section>
+		  
+		  
 
 		  
 		<!-- Video Section Start -->
@@ -1422,7 +1434,7 @@
         </section>
 		
 <!-- chat -->
-<div class="chat-container" id="chat">
+<div class="chat-container" id="chat" style="margin: 0px auto;">
     <!-- Example Chat Messages: Edit below only -->
     <div class="message right">
       <img src="assets/images/character/didi.png" alt="Ray" />
@@ -1436,13 +1448,19 @@
       <div class="bubble sunny">
         Bijli ka bill toh de rahi ho na? Uhni paise se solar ki EMI bhar lo! ₹2000/month ki EMI pe, Stress Free Light with 25 years warranty
 		<ul style="list-style: none; padding-left: 0; padding-top: 5%;">
-			<li>📊 <strong>Mera Bill Kitna Bacha Sakta Hai?</strong> Calculator</li>
-			<li>📆 <strong>5 Saal Mein Kitni Bachat Hogi?</strong> Slider</li>
-			<li>💸 <strong>Zero down payment options</strong> CTA</li>
+			<li> <i class="fa-solid fa-circle" style="font-size: 8px;"></i><strong> Mera Bill Kitna Bacha Sakta Hai?</strong> </li>
+			<li> <i class="fa-solid fa-circle" style="font-size: 8px;"></i><strong> Saal Mein Kitni Bachat Hogi?</strong></li>
+			<li> <i class="fa-solid fa-circle" style="font-size: 8px;"></i><strong> Zero down payment options</strong></li>
 		  </ul>
       </div>
     </div>
 </div>	
+
+<div style="text-align: center; margin-top: 20px;">
+	<a href="./contact.html" class="srex-btn srex-btn--primary">
+	  Contact Us <i class="fa-solid fa-phone"></i>
+	</a>
+  </div>
  <!-- ----------------------- -->
 
 		<!-- solar cal start -->
@@ -1798,7 +1816,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="row mt--30 g-24">
+							<div class="row mt--10 g-24">
 					
 								<div class="soalr-feedback-wrapper-main">
 									<div class="swiper swiper-feedback-solar">
@@ -1807,7 +1825,7 @@
 												<!-- inglle cuystoners fededback -->
 												<div class="rts-single-feedback-solar-energy">
 													<div class="client-image">
-														<img src="assets-2/images/team/21.png" alt="team" style="height: 400px;">
+														<img src="assets-2/images/team/21.png" alt="team" style="height: 300px;">
 													</div>
 													<div class="content">
 														<p class="para">
@@ -1831,7 +1849,7 @@
 												<!-- inglle cuystoners fededback -->
 												<div class="rts-single-feedback-solar-energy">
 													<div class="client-image">
-														<img src="assets-2/images/team/21.png" alt="team" style="height: 400px;">
+														<img src="assets-2/images/team/21.png" alt="team" style="height: 300px;">
 													</div>
 													<div class="content">
 														<p class="para">
@@ -1855,7 +1873,7 @@
 												<!-- inglle cuystoners fededback -->
 												<div class="rts-single-feedback-solar-energy">
 													<div class="client-image">
-														<img src="assets-2/images/team/21.png" alt="team" style="height: 400px;">
+														<img src="assets-2/images/team/21.png" alt="team" style="height: 300px;">
 													</div>
 													<div class="content">
 														<p class="para">
@@ -1879,7 +1897,7 @@
 												<!-- inglle cuystoners fededback -->
 												<div class="rts-single-feedback-solar-energy">
 													<div class="client-image">
-														<img src="assets-2/images/team/21.png" alt="team" style="height: 400px;">
+														<img src="assets-2/images/team/21.png" alt="team" style="height: 300px;">
 													</div>
 													<div class="content">
 														<p class="para">
@@ -1978,6 +1996,38 @@
 		</div>
 		<!-- Sponsor Section End -->
 
+
+				<!-- NewsLetter Section Start -->
+				<section class="srex-news-letter srex-section">
+					<div class="container">
+						<div class="srex-news-letter__box wow ud-fade-in-up" data-wow-delay="200ms">
+							<div class="row">
+								<div class="col-lg-6 col-12">
+									<div class="srex-news-letter__box__left">
+											<img
+												src="./assets/images/home-one/letter/news-letter-icon.svg"
+												class="srex-info-box__item__logo"
+												alt="NewsLetter"
+											>
+											<h3>Subscribe your E-mail for Newsletter</h3>
+									</div>
+								</div>
+								<div class="col-lg-6 col-12">
+									<div class="srex-news-letter__box__right">
+											<form class="text-center">
+												<input placeholder="Enter your email" type="text">
+											<button type="button" class="srex-btn srex-btn--primary">
+												Subscribe <i class="fa-solid fa-plus"></i>
+											</button>
+											</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- NewsLetter Section End -->
+
 		<!-- Contact Section Start -->
 		<section class="srex-contact srex-section">
 			<div class="container">
@@ -1990,14 +2040,17 @@
 										<input name="full-name" placeholder="Your Name" type="text" required>
 									</div>
 									<div class="col-md-6 col-12">
-										<input name="email" placeholder="Email Address" type="text" required>
+										<input name="email" placeholder="Your Bill" type="text" required>
 									</div>
 								</div>
 								<div>
-									<input placeholder="Your Phone" type="text" name="phone" required>
+									<input placeholder="Kab chahiye install?" type="text" name="phone" required>
 								</div>
 								<div>
-									<textarea placeholder="Your Message" id="message" rows="5" name="message" required></textarea>
+									<input placeholder="Chacha se baat karni hai" type="text" name="phone" required>
+								</div>
+								<div>
+									<textarea placeholder="Your Address" id="message" rows="5" name="message" required></textarea>
 								</div>
 								<div>
 									<button type="button" class="srex-btn srex-btn--secondary">
@@ -2018,10 +2071,10 @@
 									>
 									Contact US
 								</h5>
-								<h2 class="srex-section__head__title wow ud-fade-in-up" data-wow-delay="200ms">Empowering Communities with Solar Energy</h2>
-								<p class="mt-2 mb-4 wow ud-fade-in-up" data-wow-duration="2.2s">
+								<h2 class="srex-section__head__title wow ud-fade-in-up" data-wow-delay="200ms" style="text-align: left;">Apne ghar ka bijli ka bill bhejo, Chacha batayenge kitna bacha sakte ho.</h2>
+								<!-- <p class="mt-2 mb-4 wow ud-fade-in-up" data-wow-duration="2.2s">
 									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout It is a long established fact that a 
-								</p>
+								</p> -->
 
 								<div class="srex-icon-list">
 									<ul>
@@ -2034,6 +2087,12 @@
 											</h4>
 										</li>
 										<li class="wow ud-fade-in-up" data-wow-delay="200ms">
+											<i class="fa-solid fa-location-dot"></i>
+											<h4>
+												6391 Elgin St. Celina, 10299
+											</h4>
+										</li>
+										<li class="wow ud-fade-in-up" data-wow-delay="200ms">
 											<i class="fa-solid fa-envelope"></i>
 											<h4>
 												<a
@@ -2042,12 +2101,7 @@
 												>
 											</h4>
 										</li>
-										<li class="wow ud-fade-in-up" data-wow-delay="200ms">
-											<i class="fa-solid fa-location-dot"></i>
-											<h4>
-												6391 Elgin St. Celina, 10299
-											</h4>
-										</li>
+
 									</ul>
 								</div>
 							</div>
@@ -2154,36 +2208,7 @@
 		</section> -->
 		<!-- Question Section End -->
 
-		<!-- NewsLetter Section Start -->
-		<!-- <section class="srex-news-letter srex-section">
-			<div class="container">
-				<div class="srex-news-letter__box wow ud-fade-in-up" data-wow-delay="200ms">
-					<div class="row">
-						<div class="col-lg-6 col-12">
-							<div class="srex-news-letter__box__left">
-									<img
-										src="./assets/images/home-one/letter/news-letter-icon.svg"
-										class="srex-info-box__item__logo"
-										alt="NewsLetter"
-									>
-									<h3>Subscribe your E-mail for Newsletter</h3>
-							</div>
-						</div>
-						<div class="col-lg-6 col-12">
-							<div class="srex-news-letter__box__right">
-									<form class="text-center">
-										<input placeholder="Enter your email" type="text">
-									<button type="button" class="srex-btn srex-btn--primary">
-										Subscribe <i class="fa-solid fa-plus"></i>
-									</button>
-									</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- NewsLetter Section End -->
+
 
 	
 
@@ -2390,6 +2415,26 @@
 	<script src="assets/js/chat.js"></script>
 	<script src="assets/js/graph.js"></script>
 	<script src="assets/js/connect.js"></script>
-
+	<script>
+		const text = "Tired of your electricity bills?";
+		const typingText = document.getElementById("typing-text");
+		let index = 0;
+	  
+		function type() {
+		  if (index < text.length) {
+			typingText.innerHTML += text.charAt(index);
+			index++;
+			setTimeout(type, 100);
+		  } else {
+			typingText.style.borderRight = "none";
+		  }
+		}
+	  
+		window.onload = () => {
+		  type();
+		};
+	  </script>
+	  
+	  
 	</body>
 </html>
